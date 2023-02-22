@@ -23,7 +23,7 @@ export function Card({ variant, text, title, icon }: Props) {
             <div className={"opacity-75 my-6 text-[15px] leading-[25px]"}>{text}</div>
 
             <div className={"mt-auto"}>
-                <button className={clsx("rounded-[25px] bg-white hover:text-white py-3 px-8 text-[15px] lg:mt-[83px] leading-[25px]", {
+                <button className={clsx("rounded-[25px] bg-white hover:text-white py-3 px-8 text-[15px] lg:mt-[83px] lg:pt-0 leading-[25px]", {
                     "text-orange hover:bg-orange": variant === "orange",
                     "text-green hover:bg-green": variant === "green",
                     "text-darkGreen hover:darkGreen": variant === "dark-green",
