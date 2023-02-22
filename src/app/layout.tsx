@@ -17,7 +17,7 @@ export default function RootLayout({
       */}
       <head />
       <body className={"w-full h-full"}>
-      <div className={`container ${lexendDeca.className} grid place-items-center w-screen h-screen`}>
+      <div className={`container ${lexendDeca.className} grid place-items-center w-screen h-screen mx-auto`}>
           {children}
       </div>
       </body>
