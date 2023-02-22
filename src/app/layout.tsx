@@ -16,7 +16,7 @@ export default function RootLayout({
         head.tsx. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head />
-      <body className={"w-full h-full"}>
+      <body className={"w-full h-full bg-grey"}>
       <div className={`container ${lexendDeca.className} grid place-items-center w-screen h-screen mx-auto`}>
           {children}
       </div>
