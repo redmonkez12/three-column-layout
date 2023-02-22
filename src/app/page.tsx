@@ -2,7 +2,7 @@ import { Card } from "@/components/card";
 
 export default function Home() {
     return (
-        <main className={"px-6 py-[88px] flex flex-col lg:flex-row max-w-[920px]"}>
+        <main className={"px-6 py-[88px] flex flex-col lg:flex-row"}>
             <Card title={"sedans"}
                   text={"Choose a sedan for its affordability and excellent fuel economy. Ideal for cruising in the city or on your next road trip."}
                   icon={"icon-sedans.svg"}
